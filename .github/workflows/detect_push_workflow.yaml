@@ -13,6 +13,7 @@ jobs:
       - run: bats -v
       - run: echo "push happened in repo"
   run_build_script:
+    runs-on: ubuntu-latest
     steps:
       - name: Run build script
         run: ./.github/scripts/build.sh
