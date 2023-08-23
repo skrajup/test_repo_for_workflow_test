@@ -12,3 +12,8 @@ jobs:
       - run: npm install -g bats
       - run: bats -v
       - run: echo "push happened in repo"
+  run_build_script:
+    steps:
+      - name: Run build script
+        run: ./.github/scripts/build.sh
+        shell: bash

@@ -1,0 +1,1 @@
+echo "shell script to be run using detect_push_workflow.yaml"
