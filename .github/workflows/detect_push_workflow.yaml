@@ -16,5 +16,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run build script
-        run: sh ./.github/scripts/build.sh
+        run: ./.github/scripts/build.sh
         shell: bash
